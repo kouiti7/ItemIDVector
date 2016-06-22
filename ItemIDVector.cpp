@@ -1,3 +1,6 @@
+#include <vector>
+#include <map>
+
 class CItemIDVector : protected std::vector< UCHAR >
 {
 public:
