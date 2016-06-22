@@ -1,19 +1,3 @@
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<title>ItemIDVector</title>
-
-		<style>
-			pre {
-				-o-tab-size: 4;
-				-moz-tab-size: 4;
-				tab-size: 4;
-			}
-		</style>
-
-	</head>
-	<body>
-		<pre><code>
 class CItemIDVector : protected std::vector< UCHAR >
 {
 public:
@@ -65,7 +49,3 @@ unit_test()
 	int n = mapIDLtoID[ pidl ];
 	::ILFree( pidl );
 }
-		</code></pre>
-	</body>
-</html>
-
